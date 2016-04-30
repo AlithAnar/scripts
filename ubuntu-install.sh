@@ -8,7 +8,7 @@ sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository ppa:team-xbmc/ppa -y
 sudo apt-get update
 
-sudo apt-get install gksu guake vim google-chrome-stable bleachbit sublime-text-installer git vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi gufw clementine -y
+sudo apt-get install steam openvpn gksu guake vim google-chrome-stable bleachbit sublime-text-installer git vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi gufw clementine -y
 curl -sL https://raw.githubusercontent.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
 gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/login_shell true
 
