@@ -13,7 +13,7 @@ sudo add-apt-repository ppa:nilarimogard/webupd8 -y
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install python-pip pulseaudio-equalizer fontconfig-infinality bum baobab steam openvpn gksu guake vim google-chrome-stable bleachbit sublime-text-installer git vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi gufw clementine y-ppa-manager -y
+sudo apt-get install python-pip pulseaudio-equalizer fontconfig-infinality bum baobab steam openvpn gksu guake vim google-chrome-stable bleachbit sublime-text-installer git vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi gufw clementine y-ppa-manager nodejs -y
 curl -sL https://raw.githubusercontent.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
 gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/login_shell true
 sudo apt-get install --install-recommends wine-staging winehq-staging -y
