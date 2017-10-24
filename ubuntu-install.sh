@@ -6,10 +6,11 @@ sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository ppa:team-xbmc/ppa -y
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager -y
+sudo add-apt-repository ppa:webupd8team/atom -y
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install python-pip pulseaudio-equalizer baobab openvpn gksu guake vim google-chrome-stable bleachbit vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi clementine y-ppa-manager nodejs npm yarn -y
+sudo apt-get install python-pip libpq-dev python-dev python3-dev pulseaudio-equalizer baobab openvpn gksu guake vim google-chrome-stable bleachbit vlc ntfs-config grub-customizer oracle-java8-installer deluge p7zip-full curl software-properties-common kodi clementine y-ppa-manager nodejs npm yarn atom -y
 curl -sL https://raw.githubusercontent.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
 gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/login_shell true
 sudo pip install glances
