@@ -7,6 +7,8 @@ sudo add-apt-repository ppa:webupd8team/java -y
 sudo add-apt-repository ppa:team-xbmc/ppa -y
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager -y
 sudo add-apt-repository ppa:webupd8team/atom -y
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update
 sudo apt-get upgrade
 
