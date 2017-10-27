@@ -1,0 +1,9 @@
+[Unit]
+Description=Sets max watchers for node
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/set_max_watchers
+
+[Install]
+WantedBy=multi-user.target
